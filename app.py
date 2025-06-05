@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("📊 Analisa File CSV/Excel")
+st.title("📊 Analisa Data Penjualan")
 
 uploaded_file = st.file_uploader("Upload file penjualan (.csv / .xlsx)", type=["csv", "xlsx"])
 
